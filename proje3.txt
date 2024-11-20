@@ -1,0 +1,23 @@
+Proje 3
+
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+--> İlk eleman 7, root=7 olduğunu düşünelim.
+    5, 7'den küçük olduğu için 7'nin soluna eklenir.
+    1, 7'den küçük. 5'den de küçük olduğu için 5'in soluna eklenir.
+    8, 7'den büyük olduğu için 7'nin sağına eklenir.
+    3, 5 ve 7'den küçük ama 1'den büyük olduğu için 1'in sağına eklenir.
+    6, 7'den küçük bu nedenle solda yer almalı. 5'den büyük olduğu için 5'in sağına eklenir.
+    0, 5 ve 7'den küçük, 1'den de küçük olduğu için 1'in soluna eklenir.
+    9, 7 ve 8'den büyük olduğu için 8'in sağına eklenir.
+    4, 7'den küçük. 5'den de küçük bu yüzden 5'in solunda olmalı. 1'den büyük, 1'in sağında olmalı. 3'den büyük 3'ün sağına eklenir.
+    2, 3'den küçük 3'ün soluna eklenir.
+
+                      7
+                    /   \
+                   5     8
+                  / \     \
+                 1   6     9
+                / \
+               0   3
+                  / \
+                 2   4
