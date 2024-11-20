@@ -1,0 +1,21 @@
+Proje 2
+
+[16,21,11,8,12,22] -> Merge Sort
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+--> Diziyi iki alt diziye ayırırız. [16,21,11] ve [8,12,22].
+
+     [16,21,11] dizisini iki alt diziye ayırırız. [16] ve [21,11]
+     [21,11] dizisini iki alt diziye ayırırız. [21] ve [11]
+     [21] ve [11] dizilerini birleştiririz. [11,21]
+     [16] ve [11,21] dizilerini birleştiririz. [11,16,21]
+
+     [8,12,22] dizisini iki alt diziye ayırırız. [8] ve [12,22]
+     [12,22] dizisini iki alt diziye ayırırız. [12] ve [22]
+     [12] ve [22] dizilerini birleştiririz. [12,22]
+     [8] ve [12,22] dizilerini birleştiririz. [8,12,22]
+
+     Son olarak, [11,16,21] ve [8,12,22] dizilerini birleştiririz. [8,11,12,16,21,22]
+
+     
+Big-O gösterimini yazınız.
+--> O(nlogn)
