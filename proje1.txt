@@ -2,11 +2,11 @@ Proje 1
 
 [22,27,16,2,18,6] -> Insertion Sort
    Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
---> 22, 27den daha küçük yerinde kalır. [22,27,16,2,18,6]
-    16, 22 ve 27den daha küçük. Yer değiştirir. [16,22,27,2,18,6]
+--> 22, 27'den daha küçük yerinde kalır. [22,27,16,2,18,6]
+    16, 22 ve 27'den daha küçük. Yer değiştirir. [16,22,27,2,18,6]
     2, tüm elemanlardan daha küçük. En başa gelir. [2,16,22,27,18,6]
-    18, 22 ve 27den küçük. Bu sayıların başına gelir. [2,16,18,22,27,6]
-    6, 16,18,22,27den küçük. Bu sayıların başına gelir. [2,6,16,18,22,27]
+    18, 22 ve 27'den küçük. Bu sayıların başına gelir. [2,16,18,22,27,6]
+    6, 16,18,22,27'den küçük. Bu sayıların başına gelir. [2,6,16,18,22,27]
 
    Big-O gösterimini yazınız.
 --> Worst Case: O(n^2)
