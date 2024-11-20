@@ -1,4 +1,4 @@
-# patika.dev_projeler
+# patika.dev
 Veri Analizi Patikası
 
 proje1: Insertion Sort & Selection Sort. <br>
