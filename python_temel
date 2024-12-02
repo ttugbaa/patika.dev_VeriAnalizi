@@ -1,0 +1,33 @@
+# 1- Bir listeyi düzleştiren (flatten) fonksiyon yazın. 
+# Elemanları birden çok katmanlı listelerden ([[3],2] gibi) oluşabileceği gibi, non-scalar verilerden de oluşabilir.
+
+def flatten(lst):
+    result = []
+    for item in lst:
+        if isinstance(item, list):
+            result.extend(flatten(item))  
+        else:
+            result.append(item)
+    return result
+
+input_list =[[1,2,3], "sarı", [[[4], 5], "yeşil"], 6, [7, "kırmızı"]]
+output = flatten(input_list)
+print(output)
+
+# ------------------------------------------------------------------------------------------------
+
+# 2- Verilen listenin içindeki elemanları tersine döndüren bir fonksiyon yazın. 
+# Eğer listenin içindeki elemanlar da liste içeriyorsa onların elemanlarını da tersine döndürün. 
+
+def reverse_list(lst):
+    reversed_lst = []
+    for item in reversed(lst):
+        if isinstance(item, list):
+            reversed_lst.append(reverse_list(item))
+        else:
+            reversed_lst.append(item)
+    return reversed_lst
+
+input_list = [[[1,2], 3], [4, 5, 6], [[7,8], 9]]
+output = reverse_list(input_list)
+print(output)
