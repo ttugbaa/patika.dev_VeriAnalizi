@@ -30,7 +30,7 @@ Belirli bir aralıkta yer alan verileri seçmek için BETWEEN...AND,  belirli bi
 * sql_odev_3 çalışmasında, **LIKE** ve **ILIKE** kullanılarak SQL sorguları yazılmıştır. <br>
 Belirli kalıplara uygun verileri bulmak için LIKE, harflerin büyük veya küçük olmasının önemli olmadığı durumlarda ILIKE tercih edilir. <br>
 LIKE ile birlikte kullanılan iki karakter vardır: <br>
-% : Sıfır veya daha fazla karakteri temsil eder. Örneğin, LIKE 'A%' ifadesi, 'A' ile başlayan tüm değerleri bulur.
+% : Sıfır veya daha fazla karakteri temsil eder. Örneğin, LIKE 'A%' ifadesi, 'A' ile başlayan tüm değerleri bulur. <br>
 _ : Tam olarak bir karakteri temsil eder. Örneğin, LIKE '_a%' ifadesi, ikinci karakteri 'a' olan tüm değerleri bulur.
 
 * sql_odev_4 çalışmasında, **DISTINCT** ve **COUNT** kullanılarak SQL sorguları yazılmıştır. <br>
