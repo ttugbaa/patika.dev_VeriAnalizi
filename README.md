@@ -22,7 +22,4 @@ Fonksiyonun Amacı: Verilen bir listenin elemanlarını tersine çevirerek, içi
 ### SQL
 * sql_odev_1 çalışmasında, farklı tablolar kullanılarak belirli kriterlere göre SQL sorguları yazılmıştır. Sorgularda, verileri filtrelemek ve karşılaştırmak için karşılaştırma ve mantıksal operatörler etkin bir şekilde kullanılmıştır. <br>
 Karşılaştırma Operatörleri: Verilerin büyüklük, eşitlik veya farklılık durumlarını belirlemek için kullanılır. <br>
-Mantıksal Operatörler: Birden fazla koşulun bir arada değerlendirilmesini sağlar. <br>
-  AND: Tüm koşulların sağlanması gerektiğinde kullanılır.
-  OR: En az bir koşulun sağlanması durumunda kullanılır.
-  NOT: Belirli bir koşulun tersini ifade eder.
+Mantıksal Operatörler: Birden fazla koşulun bir arada değerlendirilmesini sağlar. Örneğin, tüm koşulların sağlanması durumunda AND kullanılırken, en az bir koşulun sağlanması durumunda OR kullanılır ve belirli bir koşulun tersini ifade etmek için NOT kullanılır.
