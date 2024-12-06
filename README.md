@@ -17,3 +17,12 @@ python_temel projesinde 2 adet fonksiyon oluşturulmuştur. <br>
 Fonksiyonun Amacı: Verilen çok katmanlı bir listeyi düzleştirerek, iç içe geçmiş tüm elemanları tek bir düz liste halinde bir araya getirmek.
 2. Listeyi Tersine Döndüren Fonksiyon <br>
 Fonksiyonun Amacı: Verilen bir listenin elemanlarını tersine çevirerek, içindeki alt listelerin elemanlarını da tersine döndürmek.
+
+
+### SQL
+* sql_odev_1 çalışmasında, farklı tablolar kullanılarak belirli kriterlere göre SQL sorguları yazılmıştır. Sorgularda, verileri filtrelemek ve karşılaştırmak için karşılaştırma ve mantıksal operatörler etkin bir şekilde kullanılmıştır. <br>
+Karşılaştırma Operatörleri: Verilerin büyüklük, eşitlik veya farklılık durumlarını belirlemek için kullanılır. <br>
+Mantıksal Operatörler: Birden fazla koşulun bir arada değerlendirilmesini sağlar. <br>
+  AND: Tüm koşulların sağlanması gerektiğinde kullanılır.
+  OR: En az bir koşulun sağlanması durumunda kullanılır.
+  NOT: Belirli bir koşulun tersini ifade eder.
