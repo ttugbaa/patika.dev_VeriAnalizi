@@ -36,3 +36,9 @@ _ : Tam olarak bir karakteri temsil eder. Örneğin, LIKE '_a%' ifadesi, ikinci 
 * sql_odev_4 çalışmasında, **DISTINCT** ve **COUNT** kullanılarak SQL sorguları yazılmıştır. <br>
 Tekrar eden değerleri ortadan kaldırarak yalnızca benzersiz verileri seçmek için DISTINCT, belirli kriterlere uyan veya tüm verileri saymak için COUNT kullanılır.
 
+* sql_odev_5 çalışmasında, **ORDER BY**, **LIMIT** ve **OFFSET** kullanılarak veri sıralama ve kısıtlama işlemleri gerçekleştirilmiştir. <br>
+Verileri belirli bir sütuna göre sıralamak için ORDER BY, sorgunun döndürdüğü veri sayısını sınırlandırmak için LIMIT, 
+veri setinden yalnızca belirli bir kısmını almak için OFFSET kullanılır.
+
+* sql_odev_6 çalışmasında, **aggregate fonksiyonları (COUNT, SUM, AVG, MAX, MIN)** ile SQL sorguları yazılmıştır.
+
