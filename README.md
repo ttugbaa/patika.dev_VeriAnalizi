@@ -42,3 +42,5 @@ veri setinden yalnızca belirli bir kısmını almak için OFFSET kullanılır.
 
 * sql_odev_6 çalışmasında, **aggregate fonksiyonları (COUNT, SUM, AVG, MAX, MIN)** ile SQL sorguları yazılmıştır.
 
+* sql_odev_7 çalışmasında, **GROUP BY** ve **HAVING** kullanılarak veri gruplama ve filtreleme işlemleri gerçekleştirilmiştir.
+
