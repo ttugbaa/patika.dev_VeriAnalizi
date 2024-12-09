@@ -44,3 +44,5 @@ veri setinden yalnızca belirli bir kısmını almak için OFFSET kullanılır.
 
 * sql_odev_7 çalışmasında, **GROUP BY** ve **HAVING** kullanılarak veri gruplama ve filtreleme işlemleri gerçekleştirilmiştir.
 
+* sql_odev_8 çalışmasında, yeni bir tablo oluşturulmuş(**CREATE**), veriler eklenmiş(**INSERT**), oluşturulan bazı veriler güncellenmiş(**UPDATE**) ve belirli veriler silinmiştir(**DELETE**).
+
