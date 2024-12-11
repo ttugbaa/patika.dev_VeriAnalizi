@@ -46,3 +46,14 @@ veri setinden yalnızca belirli bir kısmını almak için OFFSET kullanılır.
 
 * sql_odev_8 çalışmasında, yeni bir tablo oluşturulmuş(**CREATE**), veriler eklenmiş(**INSERT**), oluşturulan bazı veriler güncellenmiş(**UPDATE**) ve belirli veriler silinmiştir(**DELETE**).
 
+* sql_odev_9 çalışmasında, **INNER JOIN** ile farklı tablolar arasında bağlantılar kurarak SQL sorguları yazılmıştır. <br>
+INNER JOIN ifadesi, iki veya daha fazla tabloyu belirli bir koşula göre birleştirerek, sadece her iki tabloda da bulunan ortak verileri gösterir.
+
+* sql_odev_10 çalışmasında, **LEFT JOIN**, **RIGHT JOIN** ve **FULL JOIN** ifadeleri kullanılarak, çeşitli tablolar arasında bağlantılar kurulmuştur. <br>
+Sol tablodaki tüm verileri ve sağ tablodaki eşleşen verileri getirmek için LEFT JOIN, <br>
+Sağ tablodaki tüm verileri ve sol tablodaki eşleşen verileri getirmek için RIGHT JOIN, <br>
+Hem sol hem de sağ tablodaki tüm verileri getirmek için FULL JOIN kullanılır. <br>
+Eşleşmeyen veriler için NULL döner.
+
+* sql_odev_11 çalışmasında, iki veya daha fazla sorgunun sonuçlarını birleştirmek için **UNION**, farklı sorgular arasındaki kesişen verileri göstermek için **INTERSECT** ve birinci sorguda olup ikinci sorguda olmayan verileri göstermek için **EXCEPT** kullanılmıştır.
+
