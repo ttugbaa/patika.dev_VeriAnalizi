@@ -57,3 +57,4 @@ Eşleşmeyen veriler için NULL döner.
 
 * sql_odev_11 çalışmasında, iki veya daha fazla sorgunun sonuçlarını birleştirmek için **UNION**, farklı sorgular arasındaki kesişen verileri göstermek için **INTERSECT** ve birinci sorguda olup ikinci sorguda olmayan verileri göstermek için **EXCEPT** kullanılmıştır.
 
+* sql_odev_12 çalışmasında, **alt sorgular (SUBQUERIES)** kullanılarak karmaşık hesaplamalar ve veriler arasındaki karşılaştırmaların yapıldığı SQL sorguları oluşturulmuştur.
